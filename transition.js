@@ -1,4 +1,4 @@
-export default class Transition {
+class Transition {
   constructor (elem, option) {
     let handler
 
@@ -287,3 +287,5 @@ export default class Transition {
     return endOffset - startOffset
   }
 }
+
+export default Transition
